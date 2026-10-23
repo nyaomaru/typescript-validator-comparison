@@ -1,0 +1,158 @@
+[
+  {
+    "name": "sparse tags",
+    "results": {
+      "native": true,
+      "is-kit": false,
+      "runtypes": true,
+      "valibot": false,
+      "zod": false,
+      "arktype": false,
+      "typia": true
+    }
+  },
+  {
+    "name": "inherited fields",
+    "results": {
+      "native": false,
+      "is-kit": false,
+      "runtypes": false,
+      "valibot": true,
+      "zod": true,
+      "arktype": true,
+      "typia": true
+    }
+  },
+  {
+    "name": "extra symbol",
+    "results": {
+      "native": true,
+      "is-kit": true,
+      "runtypes": false,
+      "valibot": true,
+      "zod": true,
+      "arktype": false,
+      "typia": true
+    }
+  },
+  {
+    "name": "extra nonenumerable",
+    "results": {
+      "native": true,
+      "is-kit": true,
+      "runtypes": true,
+      "valibot": true,
+      "zod": true,
+      "arktype": true,
+      "typia": true
+    }
+  },
+  {
+    "name": "own nonenumerable id",
+    "results": {
+      "native": false,
+      "is-kit": true,
+      "runtypes": false,
+      "valibot": true,
+      "zod": true,
+      "arktype": true,
+      "typia": true
+    }
+  },
+  {
+    "name": "extra undefined",
+    "results": {
+      "native": false,
+      "is-kit": false,
+      "runtypes": false,
+      "valibot": false,
+      "zod": false,
+      "arktype": false,
+      "typia": true
+    }
+  },
+  {
+    "name": "nonJSON age NaN",
+    "results": {
+      "native": false,
+      "is-kit": false,
+      "runtypes": false,
+      "valibot": false,
+      "zod": false,
+      "arktype": false,
+      "typia": false
+    }
+  },
+  {
+    "name": "nonJSON age Infinity",
+    "results": {
+      "native": false,
+      "is-kit": false,
+      "runtypes": false,
+      "valibot": false,
+      "zod": false,
+      "arktype": false,
+      "typia": false
+    }
+  },
+  {
+    "name": "nonJSON age -Infinity",
+    "results": {
+      "native": false,
+      "is-kit": false,
+      "runtypes": false,
+      "valibot": false,
+      "zod": false,
+      "arktype": false,
+      "typia": false
+    }
+  },
+  {
+    "name": "nonJSON age undefined",
+    "results": {
+      "native": false,
+      "is-kit": false,
+      "runtypes": false,
+      "valibot": false,
+      "zod": false,
+      "arktype": false,
+      "typia": false
+    }
+  },
+  {
+    "name": "undefined root",
+    "results": {
+      "native": false,
+      "is-kit": false,
+      "runtypes": false,
+      "valibot": false,
+      "zod": false,
+      "arktype": false,
+      "typia": false
+    }
+  },
+  {
+    "name": "undefined tag",
+    "results": {
+      "native": false,
+      "is-kit": false,
+      "runtypes": false,
+      "valibot": false,
+      "zod": false,
+      "arktype": false,
+      "typia": false
+    }
+  },
+  {
+    "name": "throwing getter",
+    "results": {
+      "native": "throws",
+      "is-kit": "throws",
+      "runtypes": "throws",
+      "valibot": "throws",
+      "zod": "throws",
+      "arktype": "throws",
+      "typia": "throws"
+    }
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "name": "runtime-validator-comparison",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "lint": "biome lint src tests scripts",
+    "typecheck": "ttsc --noEmit",
+    "build": "ttsc",
+    "test": "node --test --test-isolation=none dist/tests/equivalence.test.js",
+    "bundle": "node scripts/bundle.mjs",
+    "benchmark": "node scripts/benchmark.mjs",
+    "report": "node scripts/report.mjs",
+    "verify": "pnpm lint && pnpm typecheck && pnpm build && pnpm test && pnpm bundle && pnpm benchmark && pnpm probes && pnpm report",
+    "probes": "node scripts/probes.mjs"
+  },
+  "dependencies": {
+    "arktype": "2.2.8",
+    "is-kit": "1.15.3",
+    "runtypes": "7.0.5",
+    "typia": "15.1.0",
+    "valibot": "1.5.0",
+    "zod": "4.6.5"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.5.15",
+    "@types/node": "26.6.5",
+    "esbuild": "0.28.2",
+    "ttsc": "0.31.3",
+    "typescript": "7.0.2"
+  },
+  "packageManager": "pnpm@11.22.0"
+}

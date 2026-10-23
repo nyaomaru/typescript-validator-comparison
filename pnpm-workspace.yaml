@@ -1,0 +1,6 @@
+packages:
+  - '.'
+allowBuilds:
+  esbuild: true
+# Research requires the latest stable release, including releases published today.
+minimumReleaseAge: 0
