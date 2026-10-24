@@ -1,6 +1,7 @@
 {
   "name": "runtime-validator-comparison",
   "private": true,
+  "license": "MIT",
   "type": "module",
   "scripts": {
     "lint": "biome lint src tests scripts",

@@ -1,6 +1,6 @@
 # Runtime validator comparison
 
-Reproducible companion to [“There Is No Best TypeScript Runtime Validator”](https://github.com/nyaomaru/contents/blob/update/typescript-runtime-validation/2026/global-article/typescript-runtime-validation-comparison.md). See [RESULTS.md](RESULTS.md) for the recorded results, environment, scope, and limitations.
+Reproducible companion to “There Is No Best TypeScript Runtime Validator”. See [RESULTS.md](RESULTS.md) for the recorded results, environment, scope, and limitations.
 
 ```sh
 cd typescript-validator-comparison
